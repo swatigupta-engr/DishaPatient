@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddMedRecActivity"
+    android:background="@color/background_grey">
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/progressbar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:minWidth="50dp"
+        android:minHeight="50dp"
+        android:visibility="gone" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_weekly_task"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/med_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+
+                android:background="@drawable/rounded_corners"
+                android:entries="@array/WeeklyTaskList" />
+<!--
+
+            <LinearLayout
+                android:id="@+id/med_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+-->
+
+<!--
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/med_desc_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp" />
+-->
+
+
+            <LinearLayout
+                android:id="@+id/med_time_pref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Monday"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        style="@android:style/Widget.DeviceDefault.EditText"
+                        android:id="@+id/task_monday"
+                        android:layout_width="200dp"
+
+                        android:background="@drawable/round_rect_shape"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Tuesday"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        style="@android:style/Widget.DeviceDefault.EditText"
+                        android:layout_width="200dp"
+                        android:id="@+id/task_tuesday"
+                        android:background="@drawable/round_rect_shape"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Wednesday"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        style="@android:style/Widget.DeviceDefault.EditText"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/task_wednesday"
+                        android:background="@drawable/round_rect_shape"
+
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Thursday"
+
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        style="@android:style/Widget.DeviceDefault.EditText"
+                        android:layout_width="200dp"
+                        android:id="@+id/task_thursday"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:background="@drawable/round_rect_shape"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Friday"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        style="@android:style/Widget.DeviceDefault.EditText"
+                        android:layout_width="200dp"
+                        android:id="@+id/task_friday"
+                        android:background="@drawable/round_rect_shape"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Saturday"
+
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        style="@android:style/Widget.DeviceDefault.EditText"
+                        android:layout_width="200dp" android:id="@+id/task_saturday"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:background="@drawable/round_rect_shape"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Sunday"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        style="@android:style/Widget.DeviceDefault.EditText"
+                        android:layout_width="200dp"
+                        android:id="@+id/task_sunday"
+                        android:background="@drawable/round_rect_shape"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:onClick="submitMed"
+                android:text="@string/save_text"
+                android:textColor="@android:color/white"
+                android:theme="@style/MyButton" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

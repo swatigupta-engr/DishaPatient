@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity"
+    android:background="@color/orange">
+<ImageView
+    android:layout_marginTop="50dp"
+    android:id="@+id/mascot"
+    android:layout_centerHorizontal="true"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/ic_mascot_face"/>
+
+    <EditText
+        android:id="@+id/editText_name_register"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/white"
+        android:maxLines="1"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="@string/hint_login"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@id/mascot"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/editText_password_register"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="@string/hint_login_pwd"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/editText_name_register"
+        android:layout_alignLeft="@+id/editText_name_register"
+        android:layout_alignStart="@+id/editText_name_register"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/editText_confirmPassword_register"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:hint="@string/hint_login_pwd_confirm"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/editText_password_register"
+        android:layout_alignLeft="@+id/editText_password_register"
+        android:layout_alignStart="@+id/editText_password_register"
+        android:layout_marginTop="50dp" />
+
+
+    <Button
+        android:id="@+id/button_register_submit"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="@string/register"
+        android:background="@android:color/white"
+        android:layout_below="@+id/editText_confirmPassword_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

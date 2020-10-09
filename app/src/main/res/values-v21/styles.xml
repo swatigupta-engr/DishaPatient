@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="YesCheckbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlNormal">#008000</item>
+        <item name="android:colorControlActivated">#008000</item>
+        <item name="android:colorControlHighlight">#c51162</item>
+    </style>
+    <style name="NoCheckbox" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:colorControlNormal">#D42F2F</item>
+        <item name="android:colorControlActivated">#FF0000</item>
+        <item name="android:colorControlHighlight">#c51162</item>
+    </style>
+
+</resources>

@@ -1,0 +1,1310 @@
+<resources>
+
+
+    <string name="app_name">DISHA</string>
+    <string name="video1">Raghu Introduction</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="library">Library</string>
+    <string name="begin_again">Begin Again</string>
+
+    <string name="select_days">Select Day of the week</string>
+    <string name="select_med">Select Medicine</string>
+    <string name="med_times">How many times a day? </string>
+    <string name="repeat">Repeat</string>
+
+    <string name="select_inj">Select Injection</string>
+    <string name="select_lastday">Select Last Date</string>
+    <string name="set_date">Set Date</string>
+
+    <string name="select_activity">Select Activity</string>
+    <string name="activity_added">Activity Added</string>
+
+
+    <string name="title_iadl">Self Reliance</string>
+    <string name="bmi">BMI</string>
+    <string name="valid_value">Enter Valid Value</string>
+
+    <string name="bmi_low">Your BMI is lower than normal. Please take balanced diet. Also, share this with your doctor. </string>
+    <string name="bmi_high">Your BMI is higher than normal. Please take balanced diet and exercise every day. Also, share with your doctor</string>
+    <string name="bmi_normal">Well done! You are doing well.</string>
+
+    <string name="bp_low">Your BP is lower than normal. It is important to share this with your doctor for a timely action</string>
+    <string name="bp_high">Your BP is higher than normal. It is important to share this with your doctor for a timely action.</string>
+    <string name="bp_normal">Great! Your BP is in normal range</string>
+
+    <string name="tsh_low">Your thyroid is lower than normal. It is important to share this with your doctor for a timely action</string>
+    <string name="tsh_high">Your thyroid is higher than normal. It is important to share this with your doctor for a timely action.</string>
+    <string name="tsh_normal">Great! Your thyroid is in normal range</string>
+
+    <string name="lipid_low">Your Serum Cholestrol is lower than normal. It is important to share this with your doctor for a timely action</string>
+    <string name="lipid_high">Your Serum Cholestrol is higher than normal. It is important to share this with your doctor for a timely action. </string>
+    <string name="lipid_normal">Great! Your Serum Cholestrol is in normal range</string>
+    <string name="lipid_high_border">Your Serum Cholestrol is on borderline higher side. It is important to share this with your doctor for a timely action. </string>
+
+    <string name="sugar_low">Your Blood Sugar is lower than normal. It is important to share this with your doctor for a timely action</string>
+    <string name="sugar_high">Your Blood Sugar is higher than normal.</string>
+    <string name="sugar_normal">Great! Your Blood Sugar is in normal range</string>
+
+    <string name="diet">Eating Right</string>
+    <string name="summary">Summary</string>
+    <string name="about_app">App Developed by CODESLAB</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="want_alarm">Alarm</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="medic_adhere">Medical Adherence</string>
+    <string name="last_date">Last date</string>
+    <string name="daily_routine">Daily Routine</string>
+    <string name="phy_health">Physical Health</string>
+    <string name="phy_health_desc">Some Informative Text Description about the necessity of Physical Health Monitoring</string>
+    <string name="health_monitoring_label">Health Measures</string>
+    <string name="placeholder">Placeholder Information</string>
+    <string name="title_activity_demo">Demo</string>
+    <string name="enter_value_hint">Enter value</string>
+    <string name="units_placeholder">unit</string>
+    <string name="skip_text">skip</string>
+    <string name="submit_text">submit</string>
+    <string name="title_home">Home</string>
+    <string name="title_sarthi">Sarthi</string>
+    <string name="title_dashboard">Info</string>
+    <string name="title_notifications">Progress</string>
+    <string name="title_activity_health_monitor_tabbed">Health Monitor</string>
+    <string name="submit">Submit</string>
+    <string name="height_unit">cm</string>
+    <string name="weight_unit">kg</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="test_prompt">Choose a test</string>
+    <string name="other_tests_label">Other Tests</string>
+    <string name="common_tests_label">Common Tests</string>
+    <string name="title_activity_medical_adherence">Medical Adherence</string>
+    <string name="add_medicine_information">Add medicine information</string>
+    <string name="add_alarm_information">Add Alarm</string>
+    <string name="add_injection_information">Add injection information</string>
+    <string name="blank_inj_record_text">No injection record! Click \'+\' button above to add injection information!</string>
+    <string name="blank_med_record_text">No medicine record! Click \'+\' button above to add medicine information!</string>
+    <string name="medicine_name">Select Medicine</string>
+    <string name="injection_name">Select Injection</string>
+    <string name="med_desc">Short Medicine Description (Optional)</string>
+    <string name="inj_desc">Short Injection Description (Optional)</string>
+    <string name="def_med_morning">08:00</string>
+    <string name="med_field_error">Enter a name of the medicine</string>
+    <string name="inj_field_error">Enter a name of the injection</string>
+    <string name="done">Done</string>
+    <string name="injection_schedule">Injection Schedule</string>
+    <string name="select_daily_tasks">Select daily tasks</string>
+    <string name="blank_daily_rout_record_text">No daily routine task record! Click \'+\' button above to add daily task information!</string>
+    <string name="psycho_education">Psycho Education</string>
+    <string name="daily_log">Daily Log</string>
+    <string name="psycho_edu_ques">PSychoeducation Questions</string>
+    <string name="team_saksham">Team Saksham</string>
+
+    <string-array name="questions">
+        <item>What is physical health monitoring?</item>
+        <item>Why is physical health monitoring important for you?</item>
+        <item>What are the reasons for increased physical health problems in patients with schizophrenia?</item>
+        <item>Why should we do regular physical monitoring in patients with schizophrenia?</item>
+    </string-array>
+    <string-array name="answers">
+		<item>
+			<p align="right">
+            Regular assessment and charting of few important physical parameters by the doctor at fixed intervals is called physical health monitoring.
+        It includes few simple physical tests such as Blood pressure, pulse monitoring etc. performed by the doctor during your visit and some blood investigations.
+        The interval of monitoring (e.g. monthly, weekly etc.) will be decided by your treating doctor and communicated to you.
+                Physical health monitoring is an integral part in the management of patients with schizophrenia. </p>
+		</item>
+        <item>People with schizophrenia have increased rates of physical illness compared with the general population.
+        Research has shown that the life expectancy of people with schizophrenia is reduced by 10 years as compared to general population.</item>
+        <item>There are several reasons for increased physical health problems:\n
+        - Lack of monitoring and assessment of various parameters which can help in early detection of physical problems.\n
+        - The health care needs of patients with mental illnesses are sometimes overlooked.\n
+        - Patients with schizophrenia are often not able to communicate their physical problems to the doctor clearly.\n
+        - Improper dietary habits\n
+        - Lack of physical activity\n
+        - Disturbances in lifestyle due to schizophrenia (e.g. poor self-care, disturbed sleep etc.)\n
+        - Not following treatment regimen properly. (poor adherence)\n
+        - Co-morbid substance use disorders (alcohol, tobacco, cannabis) worsens the physical health.\n
+        - Side effects of medications
+        </item>
+        <item>Early detection of physical problems leads to effective management
+        It can prevent development of full-blown metabolic disorders such as Diabetes Mellitus, Hypertension, if corrected early.
+        It motivates lifestyle modifications at the earliest which also helps in improvement of physical health
+        Side effects of medicines are also detected early.
+        </item>
+    </string-array>
+    <string-array name="daily_routine_que">
+        <item>Why do you need to wake up on time?</item>
+        <item>Why do you need to brush your teeth daily?</item>
+        <item>Why do you need to take bath daily?</item>
+        <item>What is the importance of taking meals and on time?</item>
+        <item>Why do you need to take 8 hours of sleep and maintain regular sleep time?</item>
+        <item>What is the importance of walking for you? </item>
+        <item>Why do you need to engage in leisure activities daily?</item>
+    </string-array>
+    <string-array name="daily_routine_ans">
+		<item>
+			<li>It is important to get up at right time in the morning because all activities of the day follow that.</li>\n
+
+		</item>
+        <item>
+			<li>Brushing your teeth at least twice a day is important to keep your teeth clean and healthy.</li>\n
+
+			<li>It prevents dental and gum diseases.</li>\n
+
+			<li>It also helps in maintaining a fresh breath that will help in enhancing your confidence.</li>\n
+
+		</item>
+        <item>
+			<li>Taking bath regularly is important for maintaining good health as it protects from infections.</li>\n
+
+			<li>Maintaining cleanliness is important for improving your appearance.</li>\n
+
+			<li>It helps in building self-confidence, physical and emotional well-being</li>\n
+
+		</item>
+        <item>
+			<li>Taking meals is an important daily activity. Food provides carbohydrates, proteins, fat, essential minerals,
+            vitamins and fibres.</li>\n
+
+			<li>All types of food that you eat can be divided into four groups:</li>\n
+
+			<li>\u25CF Cereals, millets and pulses</li>\n
+
+			<li>\u25CF Vegetables and fruits</li>\n
+
+			<li>\u25CF Milk and milk products, egg, meat and fish</li>\n
+
+			<li>\u25CF Oils, oilseeds nuts</li>\n
+
+
+
+
+			<li>In a balanced diet, all types of food are in the desired quantities and proportions.</li>\n
+
+			<li>Three major meals and three minor meals containing all types of foods after every two
+            hours helps in fulfilling daily nutritional requirement. It also helps in proper digestion.</li>\n
+
+
+		</item>
+        <item>
+			<li>Sleep gives rest to the body and mind.</li>\n
+
+			<li>Sleeping for 8 hours at night is essential for remaining healthy</li>\n
+
+			<li>IPoor sleep can result in poor attention and concentration, poor memory and irritability.
+            It can affect physical health and may reduce immunity.</li>\n
+
+			<li>Regular sleep schedule helps in maintaining physical and mental health. </li>\n
+
+
+		</item>
+        <item>
+			<li>Walking is an important physical activity needed for good physical and mental health. </li>\n
+
+			<li>It helps in prevention and control of obesity, joint pains, body-aches, diabetes, hypertension,
+            heart disease and other chronic physical diseases. </li>\n
+
+			<li>It improves mental well being, energy levels and quality of life.</li>\n
+
+			<li>In a day, walking for 30-45 minutes or taking 10,000 steps is important</li>\n
+
+
+		</item>
+        <item>
+			<li>Engaging in leisure activities is important activity in your daily routine.</li>\n
+
+			<li>By engaging in leisure activities you feel good, spend time effectively and prevent boredom. This helps in coping with stress,
+            improving your quality of life, satisfaction and overall well-being.</li>\n
+
+			<li> Also, it acts as distraction from everyday worries.</li>\n
+
+		</item>
+    </string-array>
+    <string-array name="iadl_que">
+        <item>What are Instrumental Activities of Daily Living?</item>
+        <item>Why are these important for you?</item>
+        <item>How will they improve your quality of life?</item>
+        <item>What do Instrumental Activities of Daily Life include?</item>
+    </string-array>
+    <string-array name="iadl_ans">
+		<item>
+			<li>Instrumental Activities of Daily Living, often referred to as life skills,
+            are actions that are important to being able to live independently. </li>\n
+
+		</item>
+        <item>
+			<li>It is seen that people with schizophrenia are often unable to carry out these activities adequately because of their symptoms. This leads to disturbance in their day-to-day living.
+            Instrumental Activities of Daily Living are needed for improving your quality of life. </li>\n
+
+		</item>
+        <item>
+			<li>The instrumental activities are more advanced than basic day to day activities like bathing,
+            brushing teeth etc. If you can carry them out, you will be more independent. You will be
+            more confident about yourself. They can help determine the level of assistance required by
+            you from your family members.
+
+</li>\n
+
+		</item>
+        <item>
+			<li>IADLs include:\n
+1.	Using public transportation \n
+2.	Using telephone \n
+3.	Meal Preparation \n
+4.	Laundry \n
+5.	Housekeeping
+</li>\n
+
+		</item>
+    </string-array>
+    <string-array name="med_adh_que">
+        <item>What is medication adherence?</item>
+        <item>What is medication adherence?</item>
+        <item>What is medication adherence?</item>
+        <item>Why do you need medication adherence?</item>
+        <item>Why do you need medication adherence?</item>
+        <item>Why do you need medication adherence?</item>
+        <item>What are the benefits of medication adherence?</item>
+        <item>What are the benefits of medication adherence?</item>
+        <item>What are the benefits of medication adherence?</item>
+        <item>What are the benefits of medication adherence?</item>
+        <item>What are the benefits of medication adherence?</item>
+        <item>What are the benefits of medication adherence?</item>
+        <item>What are the benefits of medication adherence?</item>
+        <item>What is meant by “poor medication adherence”?</item>
+        <item>What is meant by “poor medication adherence”?</item>
+        <item>What is meant by “poor medication adherence”?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>What are the harms of poor medication adherence for you?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Why does poor medication adherence occur?</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+        <item>Steps to improve medication adherence</item>
+    </string-array>
+    <string-array name="med_adh_ans">
+		<item>
+			<li>Taking your medication regularly as prescribed by your doctor</li>\n
+
+		</item>
+        <item>
+			<li>Taking your medication on time and at the correct dose and at correct intervals</li>\n
+
+		</item>
+        <item>
+			<li>Not skipping doses in between</li>\n
+
+		</item>
+        <item>
+			<li>Your illness is just like any chronic physical illness like diabetes, hypertension, etc.</li>\n
+
+		</item>
+        <item>
+			<li>Treatment of any chronic physical or mental illness requires long term medications which must be taken as suggested by your doctor</li>\n
+
+		</item>
+        <item>
+			<li>Adherence to your medication helps in improving symptoms</li>\n
+
+		</item>
+        <item>
+			<li>Reduction in your symptoms</li>\n
+
+		</item>
+        <item>
+			<li>Makes you feel better</li>\n
+
+		</item>
+        <item>
+			<li>Improves your functioning in day-to-day activities</li>\n
+
+		</item>
+        <item>
+			<li>Improves your ability to interact with friends and family members</li>\n
+
+		</item>
+        <item>
+			<li>Helps you to do your job</li>\n
+
+		</item>
+        <item>
+			<li>Reduces risk of relapse</li>\n
+
+		</item>
+        <item>
+			<li>Reduces the possibility of future hospitalization</li>\n
+
+		</item>
+        <item>
+			<li>Not taking medication on time</li>\n
+
+		</item>
+        <item>
+			<li>Not taking medication at specified intervals as prescribed by your doctor (e.g. three times a day/ two times a day etc)</li>\n
+
+		</item>
+        <item>
+			<li>Not taking correct dose (e.g. one tablet/half tablet)</li>\n
+
+		</item>
+        <item>
+			<li>No improvement in your symptoms</li>\n
+
+		</item>
+        <item>
+			<li>Worsening of symptoms with time</li>\n
+
+		</item>
+        <item>
+			<li>Relapse of symptoms which had improved in the past</li>\n
+
+		</item>
+        <item>
+			<li>Inability to do your daily activities</li>\n
+
+		</item>
+        <item>
+			<li>Disturbance in functioning</li>\n
+
+		</item>
+        <item>
+			<li>Inability to interact with friends and family members properly.</li>\n
+
+		</item>
+        <item>
+			<li>Arguments with family members</li>\n
+
+		</item>
+        <item>
+			<li>Not able to do your job/loss of job</li>\n
+
+		</item>
+        <item>
+			<li>Increased risk of hospitalization</li>\n
+
+		</item>
+        <item>
+			<li>   It has been found that half of the patients suffering from schizophrenia may not take their medication regularly. Two types of causes are found to lead to poor medication adherence:</li>\n
+
+
+
+			<li>\n 1. Unintentional interruptions</li>\n
+
+			<li>\n 2. Intentional decision to miss/stop medications</li>\n
+
+		</item>
+        <item>
+			<li>\n 1. Unintentional interruptions-- \n
+
+				<li>\u2022 Patient not fully informed about how to take medication </li>\n
+
+			</li>\n
+
+		</item>
+        <item>
+			<li>\n 1. Unintentional interruptions-- \n
+
+				<li>\u2022 Forgot to take medication </li>\n
+
+			</li>\n
+
+		</item>
+        <item>
+			<li>\n 1. Unintentional interruptions-- \n
+
+				<li>\u2022 Forgot to procure medication on time </li>\n
+
+			</li>\n
+
+		</item>
+        <item>
+			<li>\n 1. Unintentional interruptions-- \n
+
+				<li>\u2022 Did not follow-up with doctor on time</li>\n
+
+			</li>\n
+
+		</item>
+        <item>
+			<li>2. Intentional decision to miss/stop medications-- \n
+
+				<li>\u2022 Inability to procure medicines. (e.g. due to lack of money to buy medicines or lack of information about where to procure them)</li>\n
+
+			</li>\n
+
+		</item>
+        <item>
+			<li>2. Intentional decision to miss/stop medications-- \n
+
+				<li>\u2022 Patients are bothered by side-effects</li>\n
+
+			</li>\n
+
+		</item>
+        <item>
+			<li>2. Intentional decision to miss/stop medications-- \n
+
+				<li>\u2022 Myths and misconceptions</li>\n
+
+			</li>\n
+
+
+			<li>MYTH 1:
+
+				<li>Medications are addictive or habit-forming. They will become dependent on the medicines.</li>\n
+
+			</li>\n
+
+			<li>FACT:
+
+				<li>Most medications prescribed are not habit-forming.</li>\n
+
+				<li>However, a correct regimen has to be followed to increase or decrease the doses. This can be explained clearly by your treating doctor.</li>\n
+
+			</li>\n
+
+
+		</item>
+        <item>
+			<li> 2. Intentional decision to miss/stop medications-- \n
+
+				<li>\u2022 Myths and misconceptions</li>\n
+
+			</li>\n
+
+
+			<li>MYTH 2:
+
+				<li>Medications are harmful in the long term</li>\n
+
+			</li>\n
+
+			<li>FACT:
+
+				<li>Medications prescribed are safe when taken as per the instructions of the doctor. They will help in improvement of symptoms.</li>\n
+
+				<li>Few side-effects may occur, but they can be taken care of by your doctor through various ways (dose adjustment, changing to a different medication etc)</li>\n
+
+			</li>\n
+
+		</item>
+        <item>
+			<li>2. Intentional decision to miss/stop medications-- \n
+
+				<li>\u2022 Myths and misconceptions</li>\n
+
+			</li>\n
+
+
+			<li>MYTH 3:
+
+				<li>My medicines are not helping in making me feel better</li>\n
+
+			</li>\n
+
+			<li>FACT:
+
+				<li>Medicines sometimes take longer to act and must be taken regularly for it to be fully effective. </li>\n
+
+				<li>Treatment for schizophrenia is long-term, and continued adherence to medicines help in improving symptoms and functional recovery.</li>\n
+
+			</li>\n
+
+		</item>
+        <item>
+			<li>Understand the names of the medicines prescribed to you. If you have any doubts, ask your treating doctor before your consultation ends. (Tip: Request your doctor to write the names in CAPITAL LETTERS)</li>\n
+
+		</item>
+        <item>
+			<li>Understand clearly from your doctor about the correct dose and time of taking your medication. (Tip: Request for written instruction in simple language if required)</li>\n
+
+		</item>
+        <item>
+			<li>Ask your doctor about the common side-effects from the medications and what to do if they occur.</li>\n
+
+		</item>
+        <item>
+			<li>If you experience side-effects which you find problematic, visit your doctor as soon as possible instead of immediately stopping medications. There are often alternative options available to deal with side-effects.</li>\n
+
+		</item>
+        <item>
+			<li>Fix time for taking medications. (Tip: Pair with routine activities like taking meals)</li>\n
+
+		</item>
+        <item>
+			<li>You can encourage your relative to use simple devices like a clock or mobile to set alarms at time of taking medication</li>\n
+
+		</item>
+        <item>
+			<li>Make sure you have adequate stock of medication. Refill before your stock is completely over. (Tip: Every day after taking your medicines, make sure you have adequate stock for the next 2 to 3 days, if not, re-fill your stock.)</li>\n
+
+		</item>
+        <item>
+			<li>Come for regular follow-ups as advised by your doctor. In case of increase or decrease of medications, make sure you understand the instructions clearly.</li>\n
+
+		</item>
+        <item>
+			<li>Continue taking treatment in the same dosage if you are unable to come for follow up.</li>\n
+
+		</item>
+        <item>
+			<li>If you have any doubts or queries about your medications, feel free to ask your doctor regarding the same.</li>\n
+
+		</item>
+        <item>
+			<li>Do not stop the medication abruptly without consulting your doctor.</li>\n
+
+		</item>
+        <item>
+			<li>If you are unable to procure medicines due to any other reason (lack of funds, no medicine shops in your vicinity, lack of supply for a particular medicine etc.), make sure to discuss these issues with your treating doctor. It will help your doctor to look for alternative options.</li>\n
+
+		</item>
+        <item>
+			<li>Avoid harmful addictive substances (e.g. alcohol, cannabis)</li>\n
+
+		</item>
+    </string-array>
+    <array name="med_adh_images">
+        <item>@drawable/ic_eating_pill</item>
+        <item>@drawable/ic_alarm</item>
+        <item>@drawable/ic_calendar</item>
+        <item>@drawable/ic_physical_mental_illness</item>
+        <item>@drawable/ic_symptoms</item>
+        <item>@drawable/ic_medicine</item>
+        <item>@drawable/ic_symptoms</item>
+        <item>@drawable/ic_symptoms</item>
+        <item>@drawable/ic_family</item>
+        <item>@drawable/ic_family</item>
+        <item>@drawable/ic_work</item>
+        <item>@drawable/ic_hospital</item>
+        <item>@drawable/ic_hospital</item>
+        <item>@drawable/ic_no_taking_on_time</item>
+        <item>@drawable/ic_patient_no_medicine</item>
+        <item>@drawable/ic_no_dose</item>
+        <item>@drawable/ic_symptoms_worsening</item>
+        <item>@drawable/ic_symptoms_worsening</item>
+        <item>@drawable/ic_symptoms_worsening</item>
+        <item>@drawable/ic_no_work</item>
+        <item>@drawable/ic_no_work</item>
+        <item>@drawable/ic_no_family</item>
+        <item>@drawable/ic_no_family</item>
+        <item>@drawable/ic_hospital</item>
+        <item>@drawable/ic_hospital</item>
+        <item>@drawable/ic_eating_pill</item>
+        <item>@drawable/ic_unintentional_interruption</item>
+        <item>@drawable/ic_unintentional_interruption</item>
+        <item>@drawable/ic_unintentional_interruption</item>
+        <item>@drawable/ic_unintentional_interruption</item>
+        <item>@drawable/ic_intentional_interruption</item>
+        <item>@drawable/ic_intentional_interruption</item>
+        <item>@drawable/ic_intentional_interruption</item>
+        <item>@drawable/ic_intentional_interruption</item>
+        <item>@drawable/ic_intentional_interruption</item>
+        <item>@drawable/ic_prescription</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_alarm</item>
+        <item>@drawable/ic_smiley</item>
+        <item>@drawable/ic_medicine</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_eating_pill</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_no_alcohol</item>
+    </array>
+
+    <array name="psycho_edu_images">
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_onin100_2</item>
+        <item>@drawable/ic_work_5</item>
+        <item>@drawable/ic_reducedsymptoms_3</item>
+        <item>@drawable/ic_reduceddoses_4</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_positivesymptoms_8</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_negative_symptoms</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_cognitivesymptoms_10</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_brain_11</item>
+        <item>@drawable/ic_genetics_12</item>
+        <item>@drawable/ic_environmentalfactors_13</item>
+        <item>@drawable/ic_mascot_face</item>
+        <item>@drawable/ic_treatment_14</item>
+        <item>@drawable/ic_treatment_14</item>
+        <item>@drawable/ic_adherence_15</item>
+        <item>@drawable/ic_adherence_15</item>
+        <item>@drawable/ic_physical_health</item>
+        <item>@drawable/ic_physical_health</item>
+        <item>@drawable/ic_phytest_16</item>
+        <item>@drawable/ic_phytest_16</item>
+        <item>@drawable/ic_phytest_16</item>
+        <item>@drawable/ic_diet_18</item>
+        <item>@drawable/ic_diet_18</item>
+        <item>@drawable/ic_diet_18</item>
+        <item>@drawable/ic_diet_18</item>
+        <item>@drawable/ic_structureyourday_19</item>
+        <item>@drawable/ic_structureyourday_19</item>
+        <item>@drawable/ic_structureyourday_19</item>
+        <item>@drawable/ic_seeksupport_20</item>
+        <item>@drawable/ic_mascot_face</item>
+    </array>
+
+    <string-array name="psycho_edu_que">
+        <item>Introduction</item>
+        <item>Introduction</item>
+        <item>Myths associated with Schizophrenia</item>
+        <item>Myths associated with Schizophrenia</item>
+        <item>Myths associated with Schizophrenia</item>
+        <item>Myths associated with Schizophrenia</item>
+        <item>Myths associated with Schizophrenia</item>
+        <item>Symptoms of Schizophrenia </item>
+        <item>Positive Symptoms of Schizophrenia</item>
+        <item>Positive Symptoms of Schizophrenia</item>
+        <item>Negative Symptoms of Schizophrenia </item>
+        <item>Negative Symptoms of Schizophrenia </item>
+        <item>Cognitive symptoms</item>
+        <item>Helpful tips </item>
+        <item>Causes of Schizophrenia </item>
+        <item>Causes of Schizophrenia </item>
+        <item>Causes of Schizophrenia </item>
+        <item>Causes of Schizophrenia </item>
+        <item>Treatments and Therapies</item>
+        <item>Treatments and Therapies</item>
+        <item>How can I take care of myself?</item>
+        <item>How can I take care of myself?</item>
+        <item>Taking care of Physical Health</item>
+        <item>Taking care of Physical Health</item>
+        <item>Taking care of Physical Health</item>
+        <item>Taking care of Physical Health</item>
+        <item>Taking care of Physical Health</item>
+        <item>Taking care of Diet</item>
+        <item>Taking care of Diet</item>
+        <item>Taking care of Diet</item>
+        <item>Taking care of Diet</item>
+        <item>Structure Your day</item>
+        <item>Structure Your day</item>
+        <item>Structure Your day</item>
+        <item>Seek Support</item>
+        <item>Note</item>
+    </string-array>
+
+
+    <string-array name="psycho_edu_ans">
+    <item>
+        <li>Hello! Thanks for connecting with us. I will be sharing with you some basic information about Schizophrenia and how to take care of yourself  when you are living with schizophrenia.</li>
+</item>
+        <item>
+            <li>\u2022 Schizophrenia is a disorder that affects how a person thinks, feels, and behaves.</li> \n <li>\u2022 It manifests usually in late adolescence or early adulthood due to problems in functioning of brain. </li>\n
+<li>\u2022 Schizophrenia is also one of the poorly understood illnesses in our society. </li>\n <li>There are various myths associated with Schizophrenia. Evidence gathered from studies and real narratives indicate that the following myths (though prevalent) are not true  </li>\n
+    </item>
+        <item>
+        <li>Schizophrenia is a rare condition.\n
+<li>TRUTH: Schizophrenia is not rare; the lifetime risk of developing schizophrenia is widely accepted to be around 1 in 100. People living with schizophrenia don’t prefer to talk about it due to stigma. This makes the illness seem rare or non-existent. </li>
+</li>\n
+    </item>
+        <item>
+        <li>There is no treatment for Schizophrenia. \n
+<li>TRUTH: The modern science offers effective treatments for Schizophrenia. Long-term treatment may be required (as it is required in many other illnesses such as Diabetes, hypertension) and when treated properly, many people with schizophrenia are able to enjoy fulfilling, productive lives. </li>
+</li>\n
+    </item>
+        <item>
+<li>Patients of schizophrenia cannot lead a healthy and fruitful life. \n
+<li>TRUTH: Treatment if started early can lead to decrease in symptoms and improvement in functioning of patients with schizophrenia. There are  interventions that that can help the person lead a more productive and normalized life. </li>
+</li>\n
+    </item>
+        <item>
+
+<li>Patients of schizophrenia get addicted to their medicines\n
+<li>TRUTH: Medicines prescribed for schizophrenia are not addictive. If taken properly as prescribed by your  doctor, they can be eventually tapered and stopped. </li>
+</li>\n
+
+    </item>
+        <item>
+
+<li>The above misconceptions about Schizophrenia are baseless. It is important that we try to challenge these wrong perceptions whenever possible.
+Further, you should talk openly with your psychiatrist about any query or concern you may have about Schizophrenia. This will help you to get more factual and scientific information.
+</li>\n
+
+    </item>
+
+
+        <item>
+        <li>It takes time to understand the real symptoms associated with Schizophrenia . The common symptoms of the illness that most people may experience are divided in three categories: Positive symptoms, Negative symptoms and Cognitive symptoms. </li>\n
+<li>A person may experience symptoms only from one of these categories or some symptoms from all these categories.  The experience of living with Schizophrenia is different for different people.</li>\n
+    </item>
+
+        <item>
+        <li> Hallucination: Person perceive things that don’t actually exist in the reality. These may include a person hearing voices, seeing things, or smelling things that others can’t hear or see or smell. </li>\n
+<li>Delusions: These are false beliefs that don’t change even when the person who holds them is presented with the new/contradicting ideas or facts. People who have delusions often also have problems concentrating, confused thinking, or the sense that their thoughts are blocked.</li>\n
+</item>
+
+
+        <item>
+            <li>Helpful tip: Both hallucinations and delusions are symptoms of the illness and continued medication helps in alleviation of these symptoms.</li>\n
+    </item>
+
+        <item>
+
+
+<li>Negative Symptoms are associated with disturbance and disruption in the  normal emotions and behaviours. You may  observe that the
+<li>You don’t feel any interest in the day to day activities</li>\n
+<li>You don’t feel like interacting much or not at all </li>\n
+<li>Doing even basic activities (like brushing teeth, eating meals on time, going out of the house) get difficult </li>\n
+</li>\n</item>
+
+
+        <item>
+
+
+<li>There are some basic things that can help you if you are experiencing the negative symptoms. Prepare a schedule of daily activities and stick to them. Trying to engage in activities that interest you. Don’t minimize any effort that you are making. Every step counts </li>
+        </item>
+        <item>
+            <li>
+
+Cognitive symptoms include trouble in focussing attention, poor ability to understand the information, difficulty in making decisions about seemingly simple issues, and trouble in implementing the instructions.</li>\n
+</item>
+        <item>
+<li>You can deal with these problems by following these techniques
+<li>Follow one activity at a time</li>\n
+<li>Break each activity in smaller tasks</li>\n
+<li>Seek assistance from someone that you feel comfortable with</li>\n
+For instance, you want to learn to cook your favourite meal. If you are a novice cook, You can start with learning to cook a simple dish. First step may be observing someone in family who is cooking your favourite dish, second can be noting down the ingredients required and steps in cooking , third step can be trying the new dish with assistance and  finally you can try out the dish independently. </li>\n
+        </item>
+
+        <item>
+<li>You may wonder “ Why it happened to me” Schizophrenia is an illness with primarily biological causes.</li>\n
+
+<li>Neurotransmitter Imbalance:  An imbalance of  dopamine, is thought to cause the symptoms of schizophrenia. The medications used for treatment of schizophrenia try to restore the imbalance of neurotransmitters.</li>\n
+ </item>
+        <item>
+<li>Genetics:  Scientists believe that many different genes may increase the risk of schizophrenia, but that no single gene causes the disorder by itself. It is not yet possible to use genetic information to predict who will develop schizophrenia.</li>\n
+
+<li>There are many people who have schizophrenia who don’t have a family member with the disorder and conversely, many people with one or more family members with the disorder who do not develop it themselves.</li>\n
+
+    </item>
+        <item>
+        <li>Environmental Factors: Scientists also think that interactions between genes and aspects of the individual’s environment are necessary for schizophrenia to develop. Environmental factors may involve:
+            <li>Exposure to viruses </li>                                                                   <li> Malnutrition before birth</li>
+            <li> Problems during birth </li>  					      <li>Psychosocial factors </li>
+
+            Their interaction differs from individual to individual and depends to one’s unique biological makeup and psychosocial environment. </li>\n
+
+        </item>
+        <item>
+        <li>There are numerous factors that lead to development of schizophrenia in an individual. These factors interact in multiple and complex ways so one can’t say what exactly might have caused the illness.  It is important to acknowledge that there is no one single factor or person to be held responsible for the illness.       </li>\n
+    </item>
+
+        <item>
+        <li>Good news is that we have many effective and proven treatments available to help you</li>\n
+        <li>Pharmacological treatment: Antipsychotic medications are usually taken daily in pill or liquid form. Some antipsychotics are injections that are given once or twice a month. Some people have side effects when they start taking medications, but most side effects go away after a few days. \n
+            Doctors and patients can work together to find the best medication or medication combination, and the right dose. </li>\n
+        </item>
+        <item>
+        <li>Psychosocial Treatments: These treatments involve learning of specific psychological and social skills by both the patient and their family member to address the everyday challenges of schizophrenia. The current study is about development of mobile based psychosocial treatments that can be delivered from home.</li>\n
+        <li>For treatment to be successful, it is important to follow the treatment regimen diligently and follow-up regularly as and when asked by the doctor. </li>\n
+    </item>
+
+
+        <item>
+        <li>Here are some things you can do to help your loved one:\n\n
+        <li> Treatment Adherence:
+            <li>\u2022 Please take the medication regularly. At times we forget to take the medicine. You can use reminder techniques, such as setting an alarm, maintaining a pills box etc </li>\n
+            <li>\u2022 If there is any discomfort or side-effects,  discuss about it with the treating doctor instead of stopping treatment abruptly. </li>\n
+            <li>\u2022 Keep up with the regular follow-ups with the treating psychiatrist. It serves two major purposes. First it helps to monitor medicinal compliance and second to adjust the therapeutic level of medications.</li>\n
+        </li>\n
+        </li>\n
+    </item>
+        <item>
+        <li> Know the early signs of relapse:\n
+        <li> \u2022 Discuss the early warning signs of relapse with the treating psychiatrist. </li>\n
+            <li> \u2022 Develop a plan of action with your doctor and close family member  about what can be done as soon as you see the early signs of the relapse.</li> \n
+        </li>\n
+    </item>
+
+
+        <item>
+        <li>Taking care of physical health is important for everyone.
+            <li>There are some steps that you can take to ensure that you are leading a healthy life</li>\n
+
+
+            <li>\u2022 Staying active</li>\n
+
+            <li>\u2022 You may not feel like exercising or walking daily. However, this is not good for your physical well-being.</li>\n
+
+           </li>\n
+    </item>
+        <item>
+        <li>\u2022 Do engage in some physical activity each day. You can decide what activity you want to do  to take care of your physical health. It can be walking, running, playing a physical sport or Exercising/Yoga.</li>\n
+
+            <li>\u2022 You can involve your family members/friends in your exercise schedule. Physical fitness is important for all</li>\n
+
+            <li>\u2022 Try to perform the chosen physical activity  outdoors for it to be more beneficial. </li>\n
+
+            <li>\u2022 Physical activity has a positive impact not only on physical health but also the mental health. Regular exercising helps in release of chemicals in brain that are associated with pleasure.</li>\n
+
+
+    </item>
+
+
+        <item>
+
+        <li>Physical checkups</li>\n
+        <li>\u2022 Some common and vital tests may be important. Some of the tests that doctors often suggest for the patient include monitoring the weight, cholesterol blood pressure, blood sugar level and Hemoglobin.  There might be some more tests that your doctor would ask you to get done.</li>\n
+        </item>
+        <item>
+
+        <li>Physical checkups</li>\n
+        <li>\u2022 It is important that you get all the tests done immediately after doctor’s advise.The current app has a built in module for you to track the findings on these tests.</li>\n
+
+        <li>\u2022 Some of the medication for schizophrenia might lead to weight gain as a side effect. Weight gain can lead to more problems in future. It is important for you to get the weight checked periodically and enter the same in the app. The current  app will calculate the BMI and give you your current BMI. The app will also show variation in weight over time. If there is any rapid weight change you observe, please talk about it with your doctor in next visit.</li>\n
+
+        </item>
+        <item>
+
+        <li>Physical checkups</li>\n
+        <li>\u2022 Similarly, the app tracks findings for all other tests. You can observe variations in test findings and talk to your doctor in case there is anything that requires an immediate attention. </li>\n
+
+        <li>\u2022 In case of health concern, talk to your doctor immediately. Don’t  take Over the Counter medicine without consulting your doctor. </li>\n
+
+    </item>
+
+
+        <item>
+        <li> Nutritious food taken at regular intervals is important for physical health and to avoid any health problems in the future.\n
+
+            <li>Some important tips to ensure healthy diet intake:\n
+                <li>\u2022 Eat only home cooked food</li>\n
+                <li>\u2022 Eat at regular intervals and on time</li>\n
+                <li>\u2022 Avoid fat/ghee and oily food</li>\n
+                <li>\u2022 Restrict the intake of food high in sugar and salt</li>\n
+            </li>\n
+        </li>\n
+    </item>
+        <item>
+
+                <li>\u2022 Include vegetables and fruits in the diet everyday</li>\n
+                <li>\u2022 Your everyday diet should include pulses (if you are a vegetarian) and meat/eggs</li>\n
+                <li>\u2022 Dairy (milk, curd, buttermilk) and cereals (rice , pulses) should be taken. </li>\n
+                <li>\u2022 Consume tea/coffee in moderation</li>\n
+                <li>\u2022 Abstain from smoking and taking alcohol </li>\n
+
+    </item>
+        <item>
+        <li>\u2022  It is important that your entire family forms a habit of eating healthy food. Meals should be taken at the scheduled time and not erratically. </li>\n\n
+        <li>\u2022 All the family members should try to eat together whenever possible. </li>\n
+        </item>
+
+        <item>
+        <li>\u2022 Keep healthy foods (fruits, nuts, dairy) available at home. Don’t buy fried snacks/sweets as snacks too frequently</li>\n
+
+        <li>\u2022 Healthy eating habits, regular physical exercises and   addressing physical health concerns are important to ensure the physical well-being. This is important to be followed by all family members as a habit. </li>\n
+
+        <li>\u2022 Current app has module on diet management to help you take care of your diet in more orderly manner.</li>\n
+    </item>
+        <item>
+        <li>It is important to have a daily schedule for each one of us. You can prepare a schedule that has some activities that you can do each day.</li>\n\n
+        <li>\u2022 You can prepare a schedule that has some of the following activities \n
+        <li>\u2022 Daily activities: These are essential activities such as sleeping and waking up on time, taking care of hygiene daily (brushing, bathing), taking healthy meals on time </li>\n
+         </li>\n
+    </item>
+        <item>
+
+        <li>\u2022 Activities that are important to maintain health: such as exercising, walking, playing a sport</li>\n
+        <li>\u2022 Activities that interest you: Reading newspaper, books, watching TV, Listening to radio, playing indoor games</li>\n
+        <li>\u2022 Social activities: Talking to family, calling up relatives, visiting neighbor or friends</li>\n
+        </item>
+        <item>
+        <li>\u2022 Functional activities: Buying groceries for home, taking care of other members of the home, help in managing the house, doing the bank work etc</li>\n
+        Once you have prepared a schedule, try to stick to it as much possible.
+    </item>
+
+        <item>
+        <li>\u2022 Find out support systems available to you within family or around you. </li>\n
+        <li>\u2022 Try to participate in everyday family discussions and activities. </li>\n
+        <li>\u2022 Don’t restrict yourself from family functions, celebrating festivals or special days and family functions. </li>\n
+        <li>\u2022 Share your thoughts, feelings and concerns with those you trust. Listen to their concerns too.</li>\n
+    </item>
+        <item>
+        <li>Following the techniques shared here will lead to gradual improvements. Please remember that it is important that you follow them regularly to see the changes over time. </li>\n
+    </item>
+    </string-array>
+
+    <string name="download_data">Download Data</string>
+
+    <string name="title_activity_about_me">About App</string>
+    <string name="medicine_taken_message"> Yaayy! Nice work!</string>
+    <string name="injection_taken_message"> Yaayy! Nice work!</string>
+    <string name="medicine_missed_message">It\'s important that you take the medicine on time every day. This is important for your recovery.
+        You can discuss if there is any problem with your family member</string>
+    <string name="medicine_missed_daily_alarm">It\'s important that you follow your Routine every day. This is important for your recovery.
+        You can discuss if there is any problem with your family member</string>
+    <string name="injection_missed_message">It\'s important that you take the injection on time every day. This is important for your recovery.
+        You can discuss if there is any problem with your family member</string>
+    <string name="medicine_reminder">Medicine Reminder</string>
+    <string name="injection_reminder">Injection Reminder</string>
+    <string name="user_name">Name</string>
+    <string name="name_hint">Enter name here</string>
+    <string name="height_hint">Enter height here (in cm)</string>
+    <string name="weight_hint">Enter weight here (in kg)</string>
+    <string name="alarm_pref_prompt">Choose Alarm Preference</string>
+    <string name="language_pref_prompt">Choose Language Preference</string>
+    <string name="physical_activities">PHYSICAL ACTIVITIES</string>
+    <string name="phy_act_pref_prompt">Choose your activities</string>
+    <string name="leisure_activities">Leisure Activities</string>
+    <string name="leisure_activityt_pref_prompt">Select leisure activiy</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="user_profile">User Profile</string>
+    <string name="add_time">Add Time</string>
+    <string name="internet_connectivity">Please connect to the Internet for updated information</string>
+    <string name="what_eat">What did you have for</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="add_more_meals">Add More Meals</string>
+    <string name="save">Save</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="set_alarm">+   Set Alarm</string>
+    <string name="other">Other</string>
+    <string name="enter_activity_name">Enter Activity Name</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="activity_already_added">Activity already added!</string>
+    <string name="title_activity_injection_schedule">Injection schedule</string>
+    <string name="ringtone">temp</string>
+    <string name="pledge">temp</string>
+    <string name="enter_meal_name">Meal Name</string>
+    <string name="physical_health">Health Monitoring</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="waist">Waist</string>
+    <string name="waist_unit">cm</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="bp_unit">mmHg (x/y)</string>
+    <string name="blood_tests_label">Blood Tests</string>
+    <string name="lipid_profile">Serum Cholesterol</string>
+    <string name="tsh_profile">TSH</string>
+    <string name="blood_sugar_profile">Blood Sugar</string>
+    <string name="reports">Reports</string>
+    <string name="add_report">Add Report</string>
+    <string name="name">Name:</string>
+    <string name="basic_activities"> BASIC ACTIVITIES</string>
+
+    <string name="meals_pref_prompt">Select meal type</string>
+    <string-array name="alarm_pref_arrays">
+        <item>Ringtone</item>
+        <item>Only Text</item>
+    </string-array>
+    <string name="pick_activity">Pick an activity</string>
+    <string-array name="language_arrays">
+        <item>English</item>
+        <item>हिंदी</item>
+    </string-array>
+    <string-array name="phy_act_pref_arrays">
+        <item>Walk </item>
+        <item>Run</item>
+        <item>Play</item>
+        <item>Cycling</item>
+        <item>Swimming</item>
+        <item>Exercise</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="basic_act_pref_arrays">
+        <item>Wake-up </item>
+        <item>Brush</item>
+        <item>Bath</item>
+        <item>Sleep</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="leisure_activity_pref_arrays">
+        <!--        <item>Walk</item>-->
+        <!--        <item>Sleep</item>-->
+        <!--        <item>Eat</item>-->
+        <!--        <item>Play</item>-->
+        <!--        <item>@string/other</item>-->
+    </string-array>
+    <string-array name="meals_pref_arrays">
+        <item>Snacks</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="report_types">
+        <item>Serum Cholesterol</item>
+        <item>Blood Sugar</item>
+        <item>TSH</item>
+        <item>Others</item>
+    </string-array>
+    <string name="pick_report">Pick Report Type</string>
+    <string name="others_spec">Others please specify</string>
+
+    <!-- <string-array name="meals_pref_array">
+         <item>Breakfast</item>
+         <item>Lunch</item>
+         <item>Dinner</item>
+         <item>Snack1</item>
+         <item>Snack2</item>
+     </string-array>
+
+    -->
+
+
+    <string name="cereals">Cereals</string>
+    <string name="egg">Eggs</string>
+    <string name="fruits">Fruits/ Fresh Juice"</string>
+    <string name="dryfruits">Dry Fruits</string>
+    <string name="milk">Milk Products</string>
+    <string name="beverage">Beverage</string>
+    <string name="daal">Daal/Beans/Vegetables</string>
+    <string name="others">Others</string>
+    <string name="salad">Salad</string>
+    <string name="fish_meat">Fish/ Meat</string>
+
+    <string name="health_saarthi">\u2022If your BMI/cholestrol/blood sugar/BP is higher or lower than average, please talk to your doctor.
+        \n\n\u2022To reduce weight, please follow healthy eating guidelines (following eating healthy module) and stay physically active.</string>
+
+    <string name="physical_saarthi"> \u2022You can engage in physical activity in any time of the day.
+        \n\n\u2022You can also divide an activity into smaller parts like 30 minutes walk can be divided into three 10 minutes slots.</string>
+
+    <string name="med_saarthi"> \u2022It is very important to take medicine every day.
+        \n\n\u2022This will help you get better soon.
+\n\n\u2022If you are facing any problem, please talk to your doctor..</string>
+
+    <string name="daily_saarthi"> \u2022Please follow your daily routine activities every day.
+        \n\n\u2022Following a structured routine will help in bringing positive changes in life.</string>
+
+    <string name="eat_saarthi">\u2022Eat healthy food everyday. This is important to maintain good physical health and feel good during the day!
+\n\n\u2022You can take 3 big meals and 3 small meals in a day.</string>
+
+    <string name="self_saarthi">\u2022There are activities that are important for self-reliance, such as shopping for basic needs, doing basic household activities, cooking own meals, washing own clothes, using public transport, using mobile phones etc.
+        \n\n\u2022Try to engage in these activities regularly.</string>
+
+    <string name="chk_android">I agree to take part in the above study.</string>
+<string name="consent_string"> Disclaimer \n \n
+
+-	I have understood the functioning of mobile app Saksham and I have agreed to use it for three months. After three months, I will return the smartphone to the research team at AIIMS.\n\n
+-	I have understood that all the information entered by me and the images stored by me in the app will be kept confidential and secure.\n\n
+-	I have understood that the information entered by me in the app and images stored by me in the app can be used for research purposes. My personal information or identifying information will never be used on any forum.\n\n
+-	I have agreed that this app is NOT a replacement of my ongoing treatment at AIIMS. The app is in addition to the usual treatment services provided at AIIMS.\n\n
+-	If there is an emergency situation, I will consult my treating doctor or physician.\n\n
+-	I have had a chance to ask questions and get my doubts clarified related to the app and its functioning.\n\n
+-	My participation in this study is entirely voluntary and I can quit the project at any time I want. Decision to not participate in this study will have no effect on the treatment at AIIMS.\n\n
+</string>
+    <string name="consent_patient"> PARTICIPANT INFORMED CONSENT FORM (PICF) FOR PATIENT\n\n
+
+        The nature and purpose of the study and its potential risks / benefits and expected duration of the study, and other relevant details of the study have been explained to me in detail.  I understand that my participation is voluntary and that I am free to withdraw at any time, without giving any reason, without my medical care or legal right being affected.
+
+The contents of the information sheet have been read carefully by me, and I have fully understood the contents.  I confirm that I have had the opportunity to ask questions.\n
+
+I understand that the information collected about me from my participation in this research and sections of any of my medical notes may be looked at by research team from AIIMS.  I give permission to AIIMS research team to have access of my records.\n
+
+If all your queries have been answered to your satisfaction and you are willing to participant in the study, please click on the button below.\n
+\n\n
+</string>
+
+    <string name="pis">
+        PARTICIPANT INFORMATION SHEET (Patient)\n\n
+        Study Title: “Development of a mobile based intervention framework for difficult to treat patients with severe mental illnesses”.\n\n
+Investigator(s):\n\n
+
+        Dr. R. K. Chadda\n
+        Dr. Mamta Sood\n
+        Dr. Pushpendra Singh\n\n
+Introduction:\n\n
+
+You and your caregiver are invited to take part in a research study. Before you decide whether or not to take part it is important for you to understand why the research is being carried out and what it involves. Please take the time to read the following information carefully and discuss it with others if you wish. (Part 1 tells you the purpose of the study and what will happen to you and your caregiver if he/she takes part. Part 2 gives you more detailed information about the conduct of the study)\n
+
+Please ask us if there is anything that is not clear or if you would like more information. Take time to decide whether or not you wish to take part.\n\n
+
+PART 1\n\n
+Who is organising and funding the study?\n\n
+
+The funding for this study is provided by National Institute of Health Research (NIHR), UK and sponsored by University of Warwick, UK.\n
+
+What is the study about?\n\n
+
+This study would assess the feasibility and effectiveness of implementing a mobile based technology containing a suite of applications/modules as a psychosocial intervention for managing difficult to treat patients with severe mental illness (SMI).\n
+
+Do you and your caregiver have to take part?\n\n
+
+Participation in this study is entirely voluntary and you are free to refuse to take part or withdraw from the study at any time (without having to give a reason) and without, in any way, affecting your future medical care or your relationship with medical staff looking after you.  If you wish to participate in this study, we will ask you to sign a consent form to confirm that you have agreed to take part.\n
+
+What will happen to me if I take part?\n\n
+
+ You and your caregiver would be given a mobile device, asked to follow up at fixed intervals and undergo assessments at Department of Psychiatry, AIIMS. The said mobile device will be provided free of charge. But you will have to return the device after study completion i.e. 3 months later.Before you start on this study, a doctor will check you’re eligibility for the study\n
+
+What are the possible disadvantages, side effects, risks, and/or discomforts of taking part in this study?\n\n
+
+There are no particular risks anticipated in this study. This study will not involve any invasive procedure which might have side-effects.\n
+
+What are the possible benefits of taking part in this study?\n\n
+
+You will be monitored by the research team at AIIMS closely during the study.  The study will not immediately benefit you, but if the results of the study are positive, it may help us in providing better psycho-education regarding the illness and its management, improving quality of life by scheduling activities of daily living, and improving medication adherence.\n
+
+Costs of participating / compensation for participation\n\n
+
+Participation in this study will not result in any additional cost to you. Study equipments will be provided by the research team at AIIMs. Participants to the study will not receive any financial compensation\n
+
+What will happen when the study ends?\n\n
+
+After the study ends, the clinical management of the participants will proceed as usual from our centre. The data obtained will be kept secure and confidential. The data will be analysed by the researchers and the findings will be discussed and shared in scientific forums in order to interpret it. The research will not immediately alter the regular treatments you currently receive.\n
+
+Will my taking part be kept confidential?\n\n
+
+Your personal data will be kept confidential. With your permission, identifiable information about you and data collected during the study will be held securely by AIIMS and under the control of the study Investigators.   All data collected in this study will be coded and stored on a computer system protected by a password only available to the researchers.  No one outside the research team will have access to any identifiable information and all identifiable information and data will be kept securely.  Your data will be archived securely for at least five years after the end of study as this is a legal requirement for clinical studies.\nn
+
+
+ What will happen if I don’t want to carry on being part of the study?\n\n
+
+Should you withdraw from the study, data collected prior to withdrawal will be kept, anonymously, for purposes of future medical research should you agree to that. However, if you wish, your data can be removed from our database. You simply need to inform the research staff what you prefer to happen in this instance. Participation in this study is entirely voluntary and refusal to participate will not affect you and your caregiver in any way including your usual care or any benefits.\n
+
+What if there is a problem and right to raise concerns?\n\n
+
+If you have any concerns about your participation in the study you have the right to raise your concern with a researcher involved in conducting the study or the doctor involved in your care.\n
+
+Who should I contact if I wish to make a complaint?\n\n
+
+If you have a complaint about your participation in the study, you should first talk to a researcher involved in the study. However you have the right to raise a formal complaint. You can make a complaint to a senior member of the research team or to the person below, who is a senior AIIMS official entirely independent of this study:\n
+
+The Dean (Research), All India Institute of Medical Sciences Ansari Nagar  New Delhi\n
+
+What will happen to the results of the study?\n\n
+
+The results of the project will be shared and discussed with other researchers in scientific conferences (International and National). In the future the results will also be published in the form of scientific papers in reputed journals. We will provide a copy of the findings to the participants of the study, if you desire so. However, the results and findings will be available in journals and online scientific forums for your perusal.\n
+
+Who has reviewed the study?\n\n
+
+This study has been reviewed and given favourable opinion by the All India Institute of Medical Sciences Ethics Committee (IEC-745/29.12.2017, RP-19/2018).\n
+
+What if I want more information about the study?\n\n
+
+If you have any questions about any aspect of the study, or your participation in it, not\n
+answered by this participant information sheet, please contact: Dr. R.K Chadda (Telephone number – 011-26593245) Dr. Mamta Sood (Telephone number – 01126546634) Department of Psychiatry, All India Institute of Medical Sciences, Ansari Nagar, New Delhi -110029\n
+
+If the information in Part 1 has interested you and you are considering participation, please read the additional information in Part 2 before making any decision.\n\n
+PART 2\n\n
+About the ‘Saksham’ App-\n
+● You and your caregiver will be given a Smartphone that has the app ‘Saksham’ uploaded on it. There are 7 modules in this app, that are medication adherence, daily routine, physical health monitoring, eating healthy, physical activity, self-reliance and psychoeducation. Each module has information section that you can read to know more about the particular area that the module is about. \n
+        ● You will also receive messages or reminders (as set by you) during the week. You can decide what messages or reminders you want to receive during the day. \n
+        ● Some of these modules require you to enter information related to your medication intake, daily routine and about your physical health status. Investigator or the one of the study team members will explain you how to fill up the information.\n
+        ● The instructions on how to use this app will be given to you and your caregiver by the investigator, and it is also available in hard copy and soft copy form. If there are any queries or questions, you can ask the investigator anytime during the study.\n
+\n
+
+Please read the following points carefully
+
+\n You and your caregiver are required to register with your email id, the first time you use the app. Your email id and password will not be shared with anybody.  Your name or any other identifying information will not be kept with any of your interactions within the app.  No one other than you, your families, your doctor and the study investigators, will know whether you and your caregiver are using the app or not.  The information that you and your caregiver enter or the images taken by you in this app will be kept strictly confidential.  The app will collect some information from your phone activity, such as the details entered by you in specific app modules and images stored by you in the app.  Information related to when you opened the documents in this app to read them and when you read the messages shown by the app will be recorded.  We will not collect any of your location data or record any of your other phone activities beyond what we have described.
+\n The data collected may be used for research purposes. Again, individual data or personal information (your name, date of birth, address, and phone activity beyond app usage) will not be used on any forum.  The alarm/ messages that you receive during the day are only for you. These will not be shared with anybody else.   Your participation is entirely voluntary and you may quit the project at any time. All you have to do tell the study team at AIIMS that you no longer wish to participate and return the smart phone.  Your participation in this study is independent of your treatment at AIIMS. Your participation in the study will no way impact your treatment.  This app is NOT a replacement of your ongoing treatment at AIIMS. Please keep consulting his/her treating doctor or therapist.  If there is an emergency situation, please consult his/her treating doctor or physician.  We encourage you to think carefully and ask questions from the investigator to clarify your doubts. If there are any questions you may have, please ask the investigator now.
+
+Thank you for taking the time to read this Participant Information Sheet.\n\n
+
+ \n\n
+
+
+    </string>
+    <string name="agree" >I agree </string>
+    <string name="video_edit">Saksham App is for people like Raghu to help them with their activities </string>
+    <string name="log_text">Enter Log</string>
+    <string name="what_activity">NEW ACTIVITY YOU TRIED TODAY</string>
+    <string name="what_activity_you_tired">What activity you tried today?</string>
+    <string name="what_experience">How was your Experience?</string>
+    <string name="what_experience_hint">Share with us your experience</string>
+     <string name="hint_login">Enter patient email</string>
+    <string name="hint_login_pwd">Enter Password</string>
+    <string name="hint_login_pwd_confirm">Confirm Password</string>
+
+    <string name="register">REGISTER</string>
+    <string name="change_lang">Switch Language</string>
+
+    <string name="label_weight">WEIGHT</string>
+    <string name="label_cholestrol">CHOLESTEROL</string>
+    <string name="label_bp">BLOOD PRESSURE</string>
+    <string name="label_sugar">BLOOD SUGAR</string>
+    <string name="label_tsh">TSH</string>
+
+    <string name="bp_high_label">BP_HIGH</string>
+    <string name="bp_low_label">BP_LOW</string>
+
+    <string name="missed_label">MISSED
+    </string>
+    <string name="taken_label">TAKEN</string>
+    <string name="done_label">DONE</string>
+
+    <string name="jan">January</string>
+    <string name="feb">February</string>
+    <string name="mar">March</string>
+    <string name="apr">April</string>
+    <string name="may">May</string>
+    <string name="jun">June</string>
+    <string name="jul">July</string>
+    <string name="aug">August</string>
+    <string name="sep">September</string>
+    <string name="oct">October</string>
+    <string name="nov">November</string>
+    <string name="dec">December</string>
+
+<string name="challenge">Did you face any Challenge?</string>
+
+
+
+     <string name="add_daily_information">Add a Weekly Task  </string>
+    <string name="weekly_log">WEEKLY LOG</string>
+    <string name="Dates">DATES  </string>
+
+<string name="alarm_removed">ALARM REMOVED</string>
+
+<string name="medicine">Medicine</string>
+<string name="added_successfully">Added successfully</string>
+
+    <string name="save_text">Save Task</string>
+    <string name="select_weekly_task">Select Weekly Task</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+
+    <string name="title_activity_daily_task">Begin Again  </string>
+
+</resources>

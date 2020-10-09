@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    app:ignore="NamespaceTypo"
+    android:id="@+id/act_item">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/activityImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    card_view:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/ic_avatar" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/activity_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="0.6"
+                            android:text="Routine task"
+                            android:textSize="25sp"
+                            />
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.4"
+                            android:orientation="horizontal">
+                              <!--  <CheckBox android:id="@+id/checkbox_yes"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:scaleX="1.4"
+                                    android:scaleY="1.4"
+                                    android:theme="@style/YesCheckbox"
+                                    android:layout_gravity="center_vertical|center_horizontal" />
+                                <CheckBox android:id="@+id/checkbox_no"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:theme="@style/NoCheckbox"
+                                    android:scaleX="1.4"
+                                    android:scaleY="1.4"
+                                    android:layout_gravity="center_vertical|center_horizontal" />-->
+
+                                <Switch
+                                    android:id="@+id/dailyRoutineSwitch"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_gravity="center_vertical|center_horizontal"/>
+
+                        </LinearLayout>
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

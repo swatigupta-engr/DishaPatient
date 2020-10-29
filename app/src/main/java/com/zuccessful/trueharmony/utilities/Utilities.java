@@ -925,12 +925,20 @@ public class Utilities {
     }
     public static void saveWeeklyTasksToList(WeeklyTask tasks){
         ArrayList<WeeklyTask> taskArrayList;
+        ArrayList<WeeklyTask> newtaskArrayList;
+
+        newtaskArrayList=new ArrayList<>();
         taskArrayList = getListOfWeeklytasks();
         if(taskArrayList == null)
         { taskArrayList = new ArrayList<>();}
-        taskArrayList.clear();
-        taskArrayList.add(tasks);
-        saveListOfWeeklyTasks(taskArrayList);
+      //  taskArrayList.clear();
+        for(int i=0;i<taskArrayList.size();i++)
+        {if(taskArrayList.get(i).getName().equalsIgnoreCase(tasks.getName()))
+        newtaskArrayList.add(tasks);
+        else
+            newtaskArrayList.add(taskArrayList.get(i));
+        }
+        saveListOfWeeklyTasks(newtaskArrayList);
     }
 
     public static void saveListOfWeeklyTasks(ArrayList<WeeklyTask> taskArrayList){

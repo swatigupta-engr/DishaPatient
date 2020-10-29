@@ -64,14 +64,19 @@ public class HealthMonitorActivity extends AppCompatActivity {
 //                    InformationFragment infoFrag = new InformationFragment();
 //                    infoFrag.setArguments(bundle);
 //                    fragmentTransaction.replace(R.id.fragment_content, infoFrag).commit();
-
+/*
                     PdfRenderFragment p= new PdfRenderFragment();
                     Bundle bundle = new Bundle();
                     bundle.putString("filename","health.pdf");
                     bundle.putString("filename_hindi","physical_health_monitoring_hindi.pdf");
 
                     p.setArguments(bundle);
-                    fragmentTransaction.replace(R.id.fragment_content, p).commit();
+                    fragmentTransaction.replace(R.id.fragment_content, p).commit();*/
+                    Intent pIntent = new Intent(HealthMonitorActivity.this, PDFRenderActivity.class);
+                    pIntent.putExtra("filename","health.pdf");
+                    pIntent.putExtra("filename_hindi","physical_health_monitoring_hindi.pdf");
+
+                    startActivity(pIntent);
                     return true;
                 case R.id.navigation_progress:
                     fragmentTransaction.replace(R.id.fragment_content, new StatsFragment()).commit();

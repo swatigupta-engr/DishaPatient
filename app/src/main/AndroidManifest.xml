@@ -182,8 +182,10 @@
         <activity android:name=".activities.AddBeginAgainActivity" android:screenOrientation = "portrait" />
         <activity android:name=".activities.BeginAgain" android:screenOrientation = "portrait" />
         <activity android:name=".activities.WeeklyReport" android:screenOrientation="portrait"
-            ></activity>
+             ></activity>
 
+        <activity android:name=".activities.PDFRenderActivity" android:screenOrientation="portrait"
+            />
 
         <service android:name=".services.RingtonePlayingService" />
         <service android:name=".services.AlarmSoundService" />

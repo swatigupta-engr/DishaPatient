@@ -71,6 +71,13 @@ public class BeginAgain extends AppCompatActivity {
                     BeginAgainFragment medFrag = new BeginAgainFragment();
                     fragmentTransaction.replace(R.id.fragment_content, medFrag).commit();
                     return true;
+                case R.id.navigation_info:
+                    Intent pIntent = new Intent(BeginAgain.this, PDFRenderActivity.class);
+                    pIntent.putExtra("filename","self_reliance.pdf");
+                    pIntent.putExtra("filename_hindi","self_reliance_hindi.pdf");
+
+                    startActivity(pIntent);
+                    break;
                 case R.id.navigation_progress:
                     Intent i=new Intent(BeginAgain.this,WeeklyReport.class);
                     startActivity(i);

@@ -16,6 +16,7 @@ import com.zuccessful.trueharmony.activities.HealthMonitorActivity;
 import com.zuccessful.trueharmony.activities.IADLActivity;
 import com.zuccessful.trueharmony.activities.LibraryActivity;
 import com.zuccessful.trueharmony.activities.MedicalAdherenceActivity;
+import com.zuccessful.trueharmony.activities.PDFRenderActivity;
 import com.zuccessful.trueharmony.activities.PSychoeducation;
 import com.zuccessful.trueharmony.activities.PhysicalActivity;
 import com.zuccessful.trueharmony.utilities.FirebaseAnalyticsHelper;
@@ -103,7 +104,12 @@ public class HomeFragment extends Fragment {
         mDietCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getContext(), DietActivity.class));
+               // startActivity(new Intent(getContext(), DietActivity.class));
+                Intent pIntent = new Intent(getContext(), PDFRenderActivity.class);
+                pIntent.putExtra("filename","diet.pdf");
+                pIntent.putExtra("filename_hindi","eating_right_hindi.pdf");
+
+                startActivity(pIntent);
             }
         });
 
@@ -119,9 +125,14 @@ public class HomeFragment extends Fragment {
         mPsychoEduCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(), PSychoeducation.class));
+               // startActivity(new Intent(getContext(), PSychoeducation.class));
+                Intent pIntent = new Intent(getContext(), PDFRenderActivity.class);
+                pIntent.putExtra("filename","physo_edu_iph.pdf");
+                pIntent.putExtra("filename_hindi","about_illness_hindi.pdf");
+
+                 startActivity(pIntent);
                 sendMapAnalytics(FirebaseAnalyticsHelper.FirebaseAnalyConst.ACTIVITY_NAME,
-                        getString(R.string.psycho_education));
+                      getString(R.string.psycho_education));
 
             }
         });

@@ -21,7 +21,7 @@ public class LibraryPDF extends AppCompatActivity {
         {
            // pdfName=i.getStringExtra("filename");
             pdfName_hindi=i.getStringExtra("filename_hindi");
-            FragmentManager fragmentManager = getSupportFragmentManager();
+    /*        FragmentManager fragmentManager = getSupportFragmentManager();
             final FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             PdfRenderFragment p= new PdfRenderFragment();
             Bundle bundle = new Bundle();
@@ -30,6 +30,13 @@ public class LibraryPDF extends AppCompatActivity {
 
             p.setArguments(bundle);
             fragmentTransaction.replace(R.id.fragment_content, p).commit();
+*/
+
+            Intent pIntent = new Intent(LibraryPDF.this, PDFRenderActivity.class);
+           // pIntent.putExtra("filename","diet.pdf");
+            pIntent.putExtra("filename_hindi",pdfName_hindi);
+
+            startActivity(pIntent);
         }
 
     }

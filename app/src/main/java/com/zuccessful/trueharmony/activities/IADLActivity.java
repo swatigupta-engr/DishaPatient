@@ -1,5 +1,6 @@
 package com.zuccessful.trueharmony.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -61,7 +62,7 @@ public class IADLActivity extends AppCompatActivity {
 //                    InformationFragment infoFrag = new InformationFragment();
 //                    infoFrag.setArguments(bundle);
 //                    fragmentTransaction.replace(R.id.fragment_content, infoFrag).commit();
-
+/*
 
                     PdfRenderFragment p= new PdfRenderFragment();
                     Bundle bundle = new Bundle();
@@ -69,7 +70,13 @@ public class IADLActivity extends AppCompatActivity {
                     bundle.putString("filename_hindi","self_reliance_hindi.pdf");
 
                     p.setArguments(bundle);
-                    fragmentTransaction.replace(R.id.fragment_content, p).commit();
+                    fragmentTransaction.replace(R.id.fragment_content, p).commit();*/
+
+                    Intent pIntent = new Intent(IADLActivity.this, PDFRenderActivity.class);
+                    pIntent.putExtra("filename","self_reliance.pdf");
+                    pIntent.putExtra("filename_hindi","self_reliance_hindi.pdf");
+
+                    startActivity(pIntent);
                     return true;
                 case R.id.navigation_progress:
                     return true;

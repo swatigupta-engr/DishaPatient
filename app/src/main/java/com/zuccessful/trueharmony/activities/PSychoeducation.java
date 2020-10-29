@@ -1,5 +1,6 @@
 package com.zuccessful.trueharmony.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
@@ -7,6 +8,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.MenuItem;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -21,6 +23,7 @@ import com.zuccessful.trueharmony.fragments.PdfRenderFragment;
 import com.zuccessful.trueharmony.pojo.Activity_Usage;
 import com.zuccessful.trueharmony.utilities.Utilities;
 
+import java.security.Key;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -48,7 +51,7 @@ public class PSychoeducation extends AppCompatActivity {
         startTime = System.currentTimeMillis();
         changeLanguage(getApplicationContext());
 
-        setContentView(R.layout.activity_psychoeducation);
+     //   setContentView(R.layout.activity_psychoeducation);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle(getResources().getString(R.string.psycho_education));
         /*Toolbar myToolbar = findViewById(R.id.my_toolbar);
@@ -86,14 +89,23 @@ public class PSychoeducation extends AppCompatActivity {
 //        InformationFragment infoFrag = new InformationFragment();
 //        infoFrag.setArguments(bundle);
 //        fragmentTransaction.replace(R.id.fragment_content, infoFrag).commit();
-
+/*
         PdfRenderFragment p= new PdfRenderFragment();
         Bundle bundle = new Bundle();
-        bundle.putString("filename","about_illness.pdf");
+       // bundle.putString("filename","about_illness.pdf");
+        bundle.putString("filename","physo_edu_iph.pdf");
+
         bundle.putString("filename_hindi","about_illness_hindi.pdf");
 
         p.setArguments(bundle);
-        fragmentTransaction.replace(R.id.fragment_content, p).commit();
+        fragmentTransaction.replace(R.id.fragment_content, p).commit();*/
+
+
+        Intent pIntent = new Intent(PSychoeducation.this, PDFRenderActivity.class);
+        pIntent.putExtra("filename","physo_edu_iph.pdf");
+        pIntent.putExtra("filename_hindi","about_illness_hindi.pdf");
+
+        startActivity(pIntent);
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -196,6 +208,8 @@ public class PSychoeducation extends AppCompatActivity {
 
         super.onStop();
     }
+
+
 }
 
 

@@ -161,13 +161,37 @@ Log.v("Tasks______", Utilities.getListofSubtasks(med)+"");
                                                               Log.v("subtasks::",subtasks.get(current_date_cap).split("\\$")[0]+"");
                                                               String current_task=subtasks.get(current_date_cap).split("\\$")[0]+"$true";
                                                               subtasks.put(current_date_cap,current_task);
+
+                                                              String task_status=        (subtasks.get(current_date_cap).split("\\$")[1]);
+
+                                                              if(tasks.get(j).getName().equalsIgnoreCase(med.getName()))
                                                               updateData(subtasks,name,days,med,true);
+                                                            /*  else{
+                                                                  if(task_status.equalsIgnoreCase("true"))
+                                                                  updateData(subtasks,name,days,med,true);
+                                                                  else
+                                                                      updateData(subtasks,name,days,med,false);
+
+
+                                                              }*/
                                                           }
                                                           else{
                                                               Log.v("subtasks::",subtasks.get(current_date_cap).split("\\$")[0]+"");
                                                               String current_task=subtasks.get(current_date_cap).split("\\$")[0]+"$false";
                                                               subtasks.put(current_date_cap,current_task);
-                                                              updateData(subtasks,name,days,med,false);
+
+                                                              String task_status=        (subtasks.get(current_date_cap).split("\\$")[1]);
+
+                                                              if(tasks.get(j).getName().equalsIgnoreCase(med.getName()))
+                                                                  updateData(subtasks,name,days,med,false);
+                                                             /* else{
+                                                                  if(task_status.equalsIgnoreCase("true"))
+                                                                      updateData(subtasks,name,days,med,true);
+                                                                  else
+                                                                      updateData(subtasks,name,days,med,false);
+
+
+                                                              }*/
                                                           }
 
                                                      }
@@ -303,6 +327,7 @@ Log.v("Tasks______", Utilities.getListofSubtasks(med)+"");
 
           {
 
+              Log.v("count for update data","111111111");
             setTaskData(name,days,sub_tasks,status);
               Activity activity = (Activity) ctxt;
              // Medication mItem = (Medication) activity.getIntent().getSerializableExtra(Constants.MED_OBJ);
@@ -331,12 +356,14 @@ Log.v("Tasks______", Utilities.getListofSubtasks(med)+"");
         cal.add(Calendar.DATE,  6);
         Date todate1 = cal.getTime();
         String post_date = sdf.format(todate1);
+        Log.v("TASKS NAMNE_____",name+""+status);
+
         final WeeklyTask taskObj = new WeeklyTask(name,  days, subtasks, datetoday,post_date,status);
 
        Utilities.saveWeeklyTasksToList(taskObj);
 
         ArrayList<WeeklyTask> tasks = Utilities.getListOfWeeklytasks();
-        Log.v("TASKS",tasks+"");
+        Log.v("TASKS_____",tasks.size()+"");
         Log.d("Download_Data", " selected tasks are: " + tasks.size());
         if (tasks.size() > 0) {
             updateMedToFireBase(tasks);

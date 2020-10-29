@@ -49,9 +49,27 @@
         android:layout_marginLeft="90dp"
         app:srcCompat="@android:drawable/ic_media_next" />
     </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/zoomout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/zoomin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_back" />
 </LinearLayout>
 
     </LinearLayout>
+
 </ScrollView>
 
 

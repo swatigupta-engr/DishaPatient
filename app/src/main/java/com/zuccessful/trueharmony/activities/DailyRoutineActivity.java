@@ -1,6 +1,7 @@
 package com.zuccessful.trueharmony.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -18,6 +19,7 @@ import com.zuccessful.trueharmony.fragments.DailyFragmentActivity;
 import com.zuccessful.trueharmony.fragments.DailyRoutine_gb;
 import com.zuccessful.trueharmony.fragments.PdfRenderFragment;
 import com.zuccessful.trueharmony.fragments.SarthiFrag;
+import com.zuccessful.trueharmony.pojo.DailyRoutine;
 import com.zuccessful.trueharmony.utilities.Utilities;
 
 //import com.zuccessful.trueharmony.fragments.DailyRoutineManageFrag;
@@ -50,14 +52,20 @@ public class DailyRoutineActivity extends AppCompatActivity implements AddActivi
 //                    infoFrag.setArguments(bundle);
 //                    fragmentTransaction.replace(R.id.fragment_content, infoFrag).commit();
 
-
+/*
                     PdfRenderFragment p= new PdfRenderFragment();
                     Bundle bundle = new Bundle();
                     bundle.putString("filename", "daily_routine.pdf");
                     bundle.putString("filename_hindi", "daily_routine_hindi.pdf");
 
                     p.setArguments(bundle);
-                    fragmentTransaction.replace(R.id.fragment_content, p).commit();
+                    fragmentTransaction.replace(R.id.fragment_content, p).commit();*/
+
+                    Intent pIntent = new Intent(DailyRoutineActivity.this, PDFRenderActivity.class);
+                    pIntent.putExtra("filename","daily_routine.pdf");
+                    pIntent.putExtra("filename_hindi","daily_routine_hindi.pdf");
+
+                    startActivity(pIntent);
                     return true;
                 case R.id.navigation_progress:
                 // fragmentTransaction.replace(R.id.fragment_content, new ActivityStatsFrag()).commit();

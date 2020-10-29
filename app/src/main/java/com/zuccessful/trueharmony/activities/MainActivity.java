@@ -263,8 +263,15 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.action_about_me:
                 // about me
-                Intent intent = new Intent(this, AboutMe.class);
-                startActivity(intent);
+               /* Intent intent = new Intent(this, AboutMe.class);
+                startActivity(intent);*/
+                String FILENAME = "userbooklet_patient.pdf";
+                String FILENAME_HINDI = "user_booklet_hindi_patient.pdf";
+                Intent pIntent = new Intent(MainActivity.this, PDFRenderActivity.class);
+                pIntent.putExtra("filename",FILENAME);
+                pIntent.putExtra("filename_hindi",FILENAME_HINDI);
+
+                startActivity(pIntent);
                 break;
             case R.id.action_alarm_pref:
                 // alarm preferences;

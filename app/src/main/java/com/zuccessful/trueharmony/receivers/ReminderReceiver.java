@@ -241,7 +241,7 @@ public class ReminderReceiver extends BroadcastReceiver {
 
     private void setMedicationAlarms(Context c){
         ArrayList<Medication> alarms =  Utilities.getListOfMedication();
-        Log.v("reseting alarm 2",alarms.size()+"");
+//        Log.v("reseting alarm 2",alarms.size()+"");
         if (alarms.size() > 0) {
 
 

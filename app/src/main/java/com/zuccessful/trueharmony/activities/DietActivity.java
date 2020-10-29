@@ -1,6 +1,7 @@
 package com.zuccessful.trueharmony.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -15,6 +16,8 @@ import com.zuccessful.trueharmony.application.SakshamApp;
 import com.zuccessful.trueharmony.fragments.PdfRenderFragment;
 import com.zuccessful.trueharmony.fragments.SarthiFrag;
 import com.zuccessful.trueharmony.utilities.Utilities;
+
+import java.io.InputStream;
 
 public class DietActivity extends AppCompatActivity {
     long startTime;
@@ -46,15 +49,20 @@ public class DietActivity extends AppCompatActivity {
 //                    infoFrag.setArguments(bundle);
 //                    fragmentTransaction.replace(R.id.fragment_content_diet, infoFrag).commit();
 
+                   // PDFRenderActivity p=new PDFRenderActivity();
+                    Intent pIntent = new Intent(DietActivity.this, PDFRenderActivity.class);
+                    pIntent.putExtra("filename","diet.pdf");
+                    pIntent.putExtra("filename_hindi","eating_right_hindi.pdf");
 
-                    PdfRenderFragment p= new PdfRenderFragment();
+                    startActivity(pIntent);
+                   /* PdfRenderFragment p= new PdfRenderFragment();
                     Bundle bundle = new Bundle();
                     bundle.putString("filename","diet.pdf");
                     bundle.putString("filename_hindi","eating_right_hindi.pdf");
 
                     p.setArguments(bundle);
                     fragmentTransaction.replace(R.id.fragment_content_diet, p).commit();
-
+*/
                     return true;
                 case R.id.navigation_progress:
 //                    fragmentTransaction.replace(R.id.fragment_content, new StatsFragment()).commit();
@@ -98,13 +106,18 @@ public class DietActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 //        fragmentTransaction.replace(R.id.fragment_content_diet, infoFrag).commit();
 
-        PdfRenderFragment p= new PdfRenderFragment();
+        /*PdfRenderFragment p= new PdfRenderFragment();
         Bundle bundle = new Bundle();
         bundle.putString("filename","diet.pdf");
         bundle.putString("filename_hindi","eating_right_hindi.pdf");
 
         p.setArguments(bundle);
-        fragmentTransaction.replace(R.id.fragment_content_diet, p).commit();
+        fragmentTransaction.replace(R.id.fragment_content_diet, p).commit();*/
+        Intent pIntent = new Intent(DietActivity.this, PDFRenderActivity.class);
+        pIntent.putExtra("filename","diet.pdf");
+        pIntent.putExtra("filename_hindi","eating_right_hindi.pdf");
+
+        startActivity(pIntent);
     }
 
     @Override

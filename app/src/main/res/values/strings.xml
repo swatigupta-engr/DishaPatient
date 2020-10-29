@@ -104,7 +104,7 @@
     <string name="psycho_education">Psycho Education</string>
     <string name="daily_log">Daily Log</string>
     <string name="psycho_edu_ques">PSychoeducation Questions</string>
-    <string name="team_saksham">Team Saksham</string>
+    <string name="team_saksham">Team DISHA</string>
 
     <string-array name="questions">
         <item>What is physical health monitoring?</item>
@@ -1122,7 +1122,7 @@ For instance, you want to learn to cook your favourite meal. If you are a novice
     <string name="chk_android">I agree to take part in the above study.</string>
 <string name="consent_string"> Disclaimer \n \n
 
--	I have understood the functioning of mobile app Saksham and I have agreed to use it for three months. After three months, I will return the smartphone to the research team at AIIMS.\n\n
+-	I have understood the functioning of mobile app DISHA and I have agreed to use it for three months. After three months, I will return the smartphone to the research team at AIIMS.\n\n
 -	I have understood that all the information entered by me and the images stored by me in the app will be kept confidential and secure.\n\n
 -	I have understood that the information entered by me in the app and images stored by me in the app can be used for research purposes. My personal information or identifying information will never be used on any forum.\n\n
 -	I have agreed that this app is NOT a replacement of my ongoing treatment at AIIMS. The app is in addition to the usual treatment services provided at AIIMS.\n\n
@@ -1223,8 +1223,8 @@ answered by this participant information sheet, please contact: Dr. R.K Chadda (
 
 If the information in Part 1 has interested you and you are considering participation, please read the additional information in Part 2 before making any decision.\n\n
 PART 2\n\n
-About the ‘Saksham’ App-\n
-● You and your caregiver will be given a Smartphone that has the app ‘Saksham’ uploaded on it. There are 7 modules in this app, that are medication adherence, daily routine, physical health monitoring, eating healthy, physical activity, self-reliance and psychoeducation. Each module has information section that you can read to know more about the particular area that the module is about. \n
+About the ‘DISHA’ App-\n
+● You and your caregiver will be given a Smartphone that has the app ‘DISHA’ uploaded on it. There are 7 modules in this app, that are medication adherence, daily routine, physical health monitoring, eating healthy, physical activity, self-reliance and psychoeducation. Each module has information section that you can read to know more about the particular area that the module is about. \n
         ● You will also receive messages or reminders (as set by you) during the week. You can decide what messages or reminders you want to receive during the day. \n
         ● Some of these modules require you to enter information related to your medication intake, daily routine and about your physical health status. Investigator or the one of the study team members will explain you how to fill up the information.\n
         ● The instructions on how to use this app will be given to you and your caregiver by the investigator, and it is also available in hard copy and soft copy form. If there are any queries or questions, you can ask the investigator anytime during the study.\n
@@ -1242,7 +1242,7 @@ Thank you for taking the time to read this Participant Information Sheet.\n\n
 
     </string>
     <string name="agree" >I agree </string>
-    <string name="video_edit">Saksham App is for people like Raghu to help them with their activities </string>
+    <string name="video_edit">DISHA App is for people like Raghu to help them with their activities </string>
     <string name="log_text">Enter Log</string>
     <string name="what_activity">NEW ACTIVITY YOU TRIED TODAY</string>
     <string name="what_activity_you_tired">What activity you tried today?</string>

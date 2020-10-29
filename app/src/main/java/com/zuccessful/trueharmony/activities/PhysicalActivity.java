@@ -1,6 +1,7 @@
 package com.zuccessful.trueharmony.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -22,16 +23,24 @@ public class PhysicalActivity extends AppCompatActivity {
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             switch (menuItem.getItemId()) {
                 case R.id.navigation_home:
+
+
                     return true;
                 case R.id.navigation_info:
-                    PdfRenderFragment p= new PdfRenderFragment();
+                   /* PdfRenderFragment p= new PdfRenderFragment();
                     Bundle bundle = new Bundle();
                     bundle.putString("filename","physical.pdf");
                     bundle.putString("filename_hindi","physical_activity_hindi.pdf");
 
                     p.setArguments(bundle);
                     fragmentTransaction.replace(R.id.fragment_content, p).commit();
+*/
 
+                    Intent pIntent = new Intent(PhysicalActivity.this, PDFRenderActivity.class);
+                    pIntent.putExtra("filename","physical.pdf");
+                    pIntent.putExtra("filename_hindi","physical_activity_hindi.pdf");
+
+                    startActivity(pIntent);
                     return true;
                 case R.id.navigation_progress:
                     return true;
@@ -62,13 +71,18 @@ public class PhysicalActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-        PdfRenderFragment p= new PdfRenderFragment();
+       /* PdfRenderFragment p= new PdfRenderFragment();
         Bundle bundle = new Bundle();
         bundle.putString("filename","physical.pdf");
         bundle.putString("filename_hindi","physical_activity_hindi.pdf");
 
         p.setArguments(bundle);
-        fragmentTransaction.replace(R.id.fragment_content, p).commit();
+        fragmentTransaction.replace(R.id.fragment_content, p).commit();*/
+        Intent pIntent = new Intent(PhysicalActivity.this, PDFRenderActivity.class);
+        pIntent.putExtra("filename","physical.pdf");
+        pIntent.putExtra("filename_hindi","physical_activity_hindi.pdf");
+
+        startActivity(pIntent);
     }
 
     @Override
